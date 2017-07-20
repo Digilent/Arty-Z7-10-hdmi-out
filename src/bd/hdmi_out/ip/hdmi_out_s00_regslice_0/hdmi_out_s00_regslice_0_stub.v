@@ -1,10 +1,10 @@
 // Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
-// Tool Version: Vivado v.2016.4 (win64) Build 1733598 Wed Dec 14 22:35:39 MST 2016
-// Date        : Wed Mar 22 11:34:21 2017
-// Host        : DLT01-RO running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               f:/Monica/Work/Vivado/NewStructRepos/Arty-Z7-10-hdmi-out/src/bd/hdmi_out/ip/hdmi_out_s00_regslice_0/hdmi_out_s00_regslice_0_stub.v
+// Tool Version: Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+// Date        : Tue Jul 18 13:35:09 2017
+// Host        : WK115 running 64-bit major release  (build 9200)
+// Command     : write_verilog -force -mode synth_stub -rename_top hdmi_out_s00_regslice_0 -prefix
+//               hdmi_out_s00_regslice_0_ hdmi_out_s00_regslice_0_stub.v
 // Design      : hdmi_out_s00_regslice_0
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7z010clg400-1

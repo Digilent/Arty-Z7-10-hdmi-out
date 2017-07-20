@@ -1,10 +1,10 @@
 -- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2016.4 (win64) Build 1733598 Wed Dec 14 22:35:39 MST 2016
--- Date        : Wed Mar 22 11:36:20 2017
--- Host        : DLT01-RO running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               f:/Monica/Work/Vivado/NewStructRepos/Arty-Z7-10-hdmi-out/src/bd/hdmi_out/ip/hdmi_out_auto_pc_0/hdmi_out_auto_pc_0_sim_netlist.vhdl
+-- Tool Version: Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+-- Date        : Tue Jul 18 13:35:45 2017
+-- Host        : WK115 running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode funcsim -rename_top hdmi_out_auto_pc_0 -prefix
+--               hdmi_out_auto_pc_0_ hdmi_out_auto_pc_0_sim_netlist.vhdl
 -- Design      : hdmi_out_auto_pc_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -30,8 +30,6 @@ entity hdmi_out_auto_pc_0_dmem is
     \out\ : in STD_LOGIC_VECTOR ( 0 to 0 );
     dout : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_dmem : entity is "dmem";
 end hdmi_out_auto_pc_0_dmem;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_dmem is
@@ -100,8 +98,6 @@ entity hdmi_out_auto_pc_0_rd_bin_cntr is
     clk : in STD_LOGIC;
     AR : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_rd_bin_cntr : entity is "rd_bin_cntr";
 end hdmi_out_auto_pc_0_rd_bin_cntr;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_rd_bin_cntr is
@@ -372,8 +368,6 @@ entity hdmi_out_auto_pc_0_rd_fwft is
     p_0_out : in STD_LOGIC;
     dout_i : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_rd_fwft : entity is "rd_fwft";
 end hdmi_out_auto_pc_0_rd_fwft;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_rd_fwft is
@@ -615,8 +609,6 @@ entity hdmi_out_auto_pc_0_rd_status_flags_ss is
     clk : in STD_LOGIC;
     AR : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_rd_status_flags_ss : entity is "rd_status_flags_ss";
 end hdmi_out_auto_pc_0_rd_status_flags_ss;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_rd_status_flags_ss is
@@ -668,8 +660,6 @@ entity hdmi_out_auto_pc_0_synchronizer_ff is
     in0 : in STD_LOGIC_VECTOR ( 0 to 0 );
     clk : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_synchronizer_ff : entity is "synchronizer_ff";
 end hdmi_out_auto_pc_0_synchronizer_ff;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_synchronizer_ff is
@@ -929,8 +919,6 @@ entity hdmi_out_auto_pc_0_wr_bin_cntr is
     clk : in STD_LOGIC;
     \ngwrdrst.grst.g7serrst.wr_rst_reg_reg[1]\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_wr_bin_cntr : entity is "wr_bin_cntr";
 end hdmi_out_auto_pc_0_wr_bin_cntr;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_wr_bin_cntr is
@@ -1160,8 +1148,6 @@ entity hdmi_out_auto_pc_0_wr_status_flags_ss is
     \ngwrdrst.grst.g7serrst.wr_rst_reg_reg[0]\ : in STD_LOGIC_VECTOR ( 0 to 0 );
     wr_en : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_wr_status_flags_ss : entity is "wr_status_flags_ss";
 end hdmi_out_auto_pc_0_wr_status_flags_ss;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_wr_status_flags_ss is
@@ -1252,8 +1238,6 @@ entity hdmi_out_auto_pc_0_memory is
     rd_en : in STD_LOGIC;
     \out\ : in STD_LOGIC_VECTOR ( 0 to 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_memory : entity is "memory";
 end hdmi_out_auto_pc_0_memory;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_memory is
@@ -1315,8 +1299,6 @@ entity hdmi_out_auto_pc_0_rd_logic is
     wr_en : in STD_LOGIC;
     \gcc0.gc0.count_reg[4]\ : in STD_LOGIC_VECTOR ( 4 downto 0 )
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_rd_logic : entity is "rd_logic";
 end hdmi_out_auto_pc_0_rd_logic;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_rd_logic is
@@ -1371,8 +1353,6 @@ entity hdmi_out_auto_pc_0_reset_blk_ramfifo is
     clk : in STD_LOGIC;
     rst : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_reset_blk_ramfifo : entity is "reset_blk_ramfifo";
 end hdmi_out_auto_pc_0_reset_blk_ramfifo;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_reset_blk_ramfifo is
@@ -1632,8 +1612,6 @@ entity hdmi_out_auto_pc_0_wr_logic is
     \gc0.count_reg[4]\ : in STD_LOGIC_VECTOR ( 4 downto 0 );
     \gpregsm1.curr_fwft_state_reg[1]\ : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_wr_logic : entity is "wr_logic";
 end hdmi_out_auto_pc_0_wr_logic;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_wr_logic is
@@ -1683,8 +1661,6 @@ entity hdmi_out_auto_pc_0_fifo_generator_ramfifo is
     din : in STD_LOGIC_VECTOR ( 0 to 0 );
     wr_en : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_fifo_generator_ramfifo : entity is "fifo_generator_ramfifo";
 end hdmi_out_auto_pc_0_fifo_generator_ramfifo;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_fifo_generator_ramfifo is
@@ -1790,8 +1766,6 @@ entity hdmi_out_auto_pc_0_fifo_generator_top is
     din : in STD_LOGIC_VECTOR ( 0 to 0 );
     wr_en : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_fifo_generator_top : entity is "fifo_generator_top";
 end hdmi_out_auto_pc_0_fifo_generator_top;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_fifo_generator_top is
@@ -1823,8 +1797,6 @@ entity hdmi_out_auto_pc_0_fifo_generator_v13_1_3_synth is
     din : in STD_LOGIC_VECTOR ( 0 to 0 );
     wr_en : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_fifo_generator_v13_1_3_synth : entity is "fifo_generator_v13_1_3_synth";
 end hdmi_out_auto_pc_0_fifo_generator_v13_1_3_synth;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_fifo_generator_v13_1_3_synth is
@@ -2483,8 +2455,6 @@ entity hdmi_out_auto_pc_0_fifo_generator_v13_1_3 is
   attribute C_WR_PNTR_WIDTH_WRCH of hdmi_out_auto_pc_0_fifo_generator_v13_1_3 : entity is 4;
   attribute C_WR_RESPONSE_LATENCY : integer;
   attribute C_WR_RESPONSE_LATENCY of hdmi_out_auto_pc_0_fifo_generator_v13_1_3 : entity is 1;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_fifo_generator_v13_1_3 : entity is "fifo_generator_v13_1_3";
 end hdmi_out_auto_pc_0_fifo_generator_v13_1_3;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_fifo_generator_v13_1_3 is
@@ -3160,8 +3130,6 @@ entity hdmi_out_auto_pc_0_axi_data_fifo_v2_1_10_fifo_gen is
     \S_AXI_AID_Q_reg[0]_0\ : in STD_LOGIC;
     cmd_empty_reg : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_axi_data_fifo_v2_1_10_fifo_gen : entity is "axi_data_fifo_v2_1_10_fifo_gen";
 end hdmi_out_auto_pc_0_axi_data_fifo_v2_1_10_fifo_gen;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_axi_data_fifo_v2_1_10_fifo_gen is
@@ -4318,8 +4286,6 @@ entity hdmi_out_auto_pc_0_axi_data_fifo_v2_1_10_axic_fifo is
     \S_AXI_AID_Q_reg[0]_0\ : in STD_LOGIC;
     cmd_empty_reg : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_axi_data_fifo_v2_1_10_axic_fifo : entity is "axi_data_fifo_v2_1_10_axic_fifo";
 end hdmi_out_auto_pc_0_axi_data_fifo_v2_1_10_axic_fifo;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_axi_data_fifo_v2_1_10_axic_fifo is
@@ -4410,8 +4376,6 @@ entity hdmi_out_auto_pc_0_axi_protocol_converter_v2_1_11_a_axi3_conv is
     aresetn : in STD_LOGIC;
     s_axi_arvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_axi_protocol_converter_v2_1_11_a_axi3_conv : entity is "axi_protocol_converter_v2_1_11_a_axi3_conv";
 end hdmi_out_auto_pc_0_axi_protocol_converter_v2_1_11_a_axi3_conv;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_axi_protocol_converter_v2_1_11_a_axi3_conv is
@@ -7356,8 +7320,6 @@ entity hdmi_out_auto_pc_0_axi_protocol_converter_v2_1_11_axi3_conv is
     aresetn : in STD_LOGIC;
     s_axi_arvalid : in STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_axi_protocol_converter_v2_1_11_axi3_conv : entity is "axi_protocol_converter_v2_1_11_axi3_conv";
 end hdmi_out_auto_pc_0_axi_protocol_converter_v2_1_11_axi3_conv;
 
 architecture STRUCTURE of hdmi_out_auto_pc_0_axi_protocol_converter_v2_1_11_axi3_conv is
@@ -7529,8 +7491,6 @@ entity hdmi_out_auto_pc_0_axi_protocol_converter_v2_1_11_axi_protocol_converter 
   attribute C_TRANSLATION_MODE of hdmi_out_auto_pc_0_axi_protocol_converter_v2_1_11_axi_protocol_converter : entity is 2;
   attribute DowngradeIPIdentifiedWarnings : string;
   attribute DowngradeIPIdentifiedWarnings of hdmi_out_auto_pc_0_axi_protocol_converter_v2_1_11_axi_protocol_converter : entity is "yes";
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_auto_pc_0_axi_protocol_converter_v2_1_11_axi_protocol_converter : entity is "axi_protocol_converter_v2_1_11_axi_protocol_converter";
   attribute P_AXI3 : integer;
   attribute P_AXI3 of hdmi_out_auto_pc_0_axi_protocol_converter_v2_1_11_axi_protocol_converter : entity is 1;
   attribute P_AXI4 : integer;

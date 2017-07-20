@@ -1,10 +1,10 @@
 -- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2016.4 (win64) Build 1733598 Wed Dec 14 22:35:39 MST 2016
--- Date        : Wed Mar 22 11:34:21 2017
--- Host        : DLT01-RO running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode funcsim
---               f:/Monica/Work/Vivado/NewStructRepos/Arty-Z7-10-hdmi-out/src/bd/hdmi_out/ip/hdmi_out_s00_regslice_0/hdmi_out_s00_regslice_0_sim_netlist.vhdl
+-- Tool Version: Vivado v.2016.4 (win64) Build 1756540 Mon Jan 23 19:11:23 MST 2017
+-- Date        : Tue Jul 18 13:35:09 2017
+-- Host        : WK115 running 64-bit major release  (build 9200)
+-- Command     : write_vhdl -force -mode funcsim -rename_top hdmi_out_s00_regslice_0 -prefix
+--               hdmi_out_s00_regslice_0_ hdmi_out_s00_regslice_0_sim_netlist.vhdl
 -- Design      : hdmi_out_s00_regslice_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -2893,8 +2893,6 @@ entity hdmi_out_s00_regslice_0_axi_register_slice_v2_1_11_axi_register_slice is
   attribute G_AXI_WUSER_INDEX of hdmi_out_s00_regslice_0_axi_register_slice_v2_1_11_axi_register_slice : entity is 73;
   attribute G_AXI_WUSER_WIDTH : integer;
   attribute G_AXI_WUSER_WIDTH of hdmi_out_s00_regslice_0_axi_register_slice_v2_1_11_axi_register_slice : entity is 0;
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of hdmi_out_s00_regslice_0_axi_register_slice_v2_1_11_axi_register_slice : entity is "axi_register_slice_v2_1_11_axi_register_slice";
 end hdmi_out_s00_regslice_0_axi_register_slice_v2_1_11_axi_register_slice;
 
 architecture STRUCTURE of hdmi_out_s00_regslice_0_axi_register_slice_v2_1_11_axi_register_slice is

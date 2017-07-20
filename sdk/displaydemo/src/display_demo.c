@@ -1,6 +1,6 @@
 /************************************************************************/
 /*																		*/
-/*	display_demo.c	--	Arty Z7-10 Display demonstration 						*/
+/*	display_demo.c	--	Arty Z7-20 Display demonstration  				*/
 /*																		*/
 /************************************************************************/
 /*	Author: Sam Bobrowicz												*/
@@ -16,7 +16,7 @@
 /*  Revision History:													*/
 /* 																		*/
 /*		2/5/2016(SamB): Created											*/
-/*		2/5/2017(MonicaI): Updated name for Arty Z7-10 board			*/
+/*		2/10/2017(MonicaI): Updated name for Arty Z7-20 board			*/
 /*																		*/
 /************************************************************************/
 
