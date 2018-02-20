@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 	<name>hdmi_out_wrapper_hw_platform_0</name>
-	<comment>Created by SDK v2016.4</comment>
+	<comment>Created by SDK v2017.4</comment>
 	<projects>
 	</projects>
 	<buildSpec>
@@ -11,7 +11,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1500578708582</id>
+			<id>1519164890665</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -20,7 +20,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1500578708589</id>
+			<id>1519164890674</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
@@ -29,7 +29,7 @@
 			</matcher>
 		</filter>
 		<filter>
-			<id>1500578708597</id>
+			<id>1519164890679</id>
 			<name></name>
 			<type>6</type>
 			<matcher>

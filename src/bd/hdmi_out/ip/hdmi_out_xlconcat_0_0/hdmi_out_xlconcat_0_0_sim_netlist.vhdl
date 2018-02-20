@@ -1,10 +1,10 @@
--- Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+-- Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
--- Tool Version: Vivado v.2016.4 (win64) Build 1733598 Wed Dec 14 22:35:39 MST 2016
--- Date        : Wed Mar 22 11:33:23 2017
--- Host        : DLT01-RO running 64-bit major release  (build 9200)
+-- Tool Version: Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+-- Date        : Tue Feb 20 11:45:02 2018
+-- Host        : WK142 running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode funcsim
---               F:/Monica/Work/Vivado/NewStructRepos/Arty-Z7-10-hdmi-out/src/bd/hdmi_out/ip/hdmi_out_xlconcat_0_0/hdmi_out_xlconcat_0_0_sim_netlist.vhdl
+--               C:/Users/arthur/Documents/GitHub/Arty/Arty-Z7-10-hdmi-out/src/bd/hdmi_out/ip/hdmi_out_xlconcat_0_0/hdmi_out_xlconcat_0_0_sim_netlist.vhdl
 -- Design      : hdmi_out_xlconcat_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -24,11 +24,11 @@ entity hdmi_out_xlconcat_0_0 is
   attribute NotValidForBitStream : boolean;
   attribute NotValidForBitStream of hdmi_out_xlconcat_0_0 : entity is true;
   attribute CHECK_LICENSE_TYPE : string;
-  attribute CHECK_LICENSE_TYPE of hdmi_out_xlconcat_0_0 : entity is "hdmi_out_xlconcat_0_0,xlconcat,{}";
-  attribute downgradeipidentifiedwarnings : string;
-  attribute downgradeipidentifiedwarnings of hdmi_out_xlconcat_0_0 : entity is "yes";
-  attribute x_core_info : string;
-  attribute x_core_info of hdmi_out_xlconcat_0_0 : entity is "xlconcat,Vivado 2016.4";
+  attribute CHECK_LICENSE_TYPE of hdmi_out_xlconcat_0_0 : entity is "hdmi_out_xlconcat_0_0,xlconcat_v2_1_1_xlconcat,{}";
+  attribute DowngradeIPIdentifiedWarnings : string;
+  attribute DowngradeIPIdentifiedWarnings of hdmi_out_xlconcat_0_0 : entity is "yes";
+  attribute X_CORE_INFO : string;
+  attribute X_CORE_INFO of hdmi_out_xlconcat_0_0 : entity is "xlconcat_v2_1_1_xlconcat,Vivado 2017.4";
 end hdmi_out_xlconcat_0_0;
 
 architecture STRUCTURE of hdmi_out_xlconcat_0_0 is
