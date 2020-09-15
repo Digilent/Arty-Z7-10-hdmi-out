@@ -17,9 +17,6 @@ The demo uses the usb-uart bridge to configure the HDMI Display , the Arty Z7-10
 | 5         | Inverts current frame colors.                                             |
 | 6         | Inverts current frame colors seamlessly.                                  |
 
-
-
-
 Requirements
 ------------
 * **Arty Z7-10**
